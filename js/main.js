@@ -1,5 +1,4 @@
 jQuery(document).ready(function ($) {
-  //FIXED HEADER
   window.onscroll = function () {
     if (window.pageYOffset > 140) {
       $("#header").addClass("active");
@@ -8,7 +7,6 @@ jQuery(document).ready(function ($) {
     }
   };
 
-  //ISOTOPE
   let btns = $("#services .button-group button");
 
   btns.click(function (e) {
@@ -27,7 +25,6 @@ jQuery(document).ready(function ($) {
     });
   });
 
-  //MAGNIFY
   $(".grid .popup-link").magnificPopup({
     type: "image",
     gallery: {
@@ -38,7 +35,6 @@ jQuery(document).ready(function ($) {
     },
   });
 
-  //OWL
   $(".owl-carousel").owlCarousel({
     loop: false,
     margin: 30,
