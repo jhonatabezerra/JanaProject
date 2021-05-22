@@ -54,7 +54,7 @@ body {
   text-transform: uppercase;
 }
 
-#services a.emphasis {
+#services a.dataFiles {
   display: block;
   background: var(--light);
   border-radius: 5px;
@@ -65,7 +65,7 @@ body {
   transition: all ease-out 0.2s;
 }
 
-#services a.emphasis:hover {
+#services a.dataFiles:hover {
   background: #fff;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
   transform: scale(1.05);
@@ -75,14 +75,14 @@ body {
   color: var(--dark);
 }
 
-#services a.emphasis .img-container {
+#services a.dataFiles .img-container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 200px;
 }
 
-#services a.emphasis .img-container img {
+#services a.dataFiles .img-container img {
   max-height: 160px;
 }
 

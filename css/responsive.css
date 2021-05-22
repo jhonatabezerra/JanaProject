@@ -21,10 +21,10 @@
 }
 
 @media (max-width: 767.98px) {
-  #services a.emphasis .img-container {
+  #services a.dataFiles .img-container {
     height: 120px;
   }
-  #services a.emphasis .img-container img {
+  #services a.dataFiles .img-container img {
     max-height: 120px;
   }
   #clientes .text-client .imagem {
